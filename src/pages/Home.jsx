@@ -7,7 +7,7 @@ function Home() {
     <section className="page home-page">
       <h1 className="section-title">Welcome to my portfolio</h1>
       <p>
-        Hello, I am <strong>Shanakar Prasad Dutta</strong>, currently pursuing B.Tech
+        Hello, I am <strong>Shankar Prasad Dutta</strong>, currently pursuing B.Tech
         in CSE 4th semester. I enjoy building responsive web apps with React and
         learning the latest front-end techniques.
       </p>

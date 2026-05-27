@@ -11,7 +11,7 @@ const navItems = [
 function Navbar() {
   return (
     <header className="site-header">
-      <div className="brand">Shanakar&apos;s Portfolio</div>
+      <div className="brand">Shankar&apos;s Portfolio</div>
       <nav>
         <ul className="nav-list">
           {navItems.map((item) => (

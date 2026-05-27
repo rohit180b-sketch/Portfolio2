@@ -56,15 +56,19 @@ function Weather() {
         time: weatherData.current_weather.time,
       })
     } catch (err) {
-      setError(err.message)
+      setError(err instanceof Error ? err.message : String(err))
     } finally {
       setLoading(false)
     }
   }
 
   useEffect(() => {
-    fetchWeather(city)
-  }, [])
+    const loadInitialWeather = async () => {
+      await fetchWeather(city)
+    }
+
+    void loadInitialWeather()
+  }, [city])
 
   return (
     <section className="page weather-page">

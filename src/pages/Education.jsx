@@ -6,7 +6,7 @@ function Education() {
       description: 'Currently enrolled in the 4th semester of B.Tech CSE.',
     },
     {
-      year: '2021 - 2024',
+      year: '2021 - 2023',
       title: 'Higher Secondary Education',
       description: 'Completed 12th grade with a focus on science subjects.',
     },
